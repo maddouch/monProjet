@@ -1,0 +1,46 @@
+  form{
+            border: 2px solid red;
+            padding:20px;
+            margin: 20px;
+        }
+        div{
+           width: 300px;
+           height:300px;
+           border:20px solid rgba(255, 0, 0, 0.50);
+           text-align: center;
+           margin:auto;
+           margin-top:100px;
+           padding: 10px;
+           box-shadow: -1px -1px  20px  5px green ;
+           /* border-radius:50%; */
+           background-image:url(./images/agadir.jpg);
+           background-repeat: no-repeat;
+           background-origin:border-box ;
+           color: white;
+           font-size: 25px;
+           clip-path: polygon(0% 0%,100% 10%, 90% 80%,0% 90%);
+        }
+       body{
+        
+        /* background-image: url(./images/Casablanca2.jpg); */
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #ff00c8d8;
+       }
+       label{
+        margin-top:20px;
+        display: block;
+       }
+       input{
+        margin-left: 40px;
+       }
+       fieldset{
+        border: 5px solid blue;
+        border-width: 4px;
+       }
+       legend{
+        background-color: blue;
+        color: white;
+        border-radius: 15px;
+       }
